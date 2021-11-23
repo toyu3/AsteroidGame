@@ -18,8 +18,7 @@ bob.show();
 }
 
 public void keyPressed() {
-if (key == ' ')
-{
+if (key == ' '){
 bob.setDirectionX(0);
 bob.setDirectionY(0);
 bob.setX((int)(Math.random()*500));
