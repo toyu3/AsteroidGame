@@ -1,7 +1,5 @@
 SpaceShip bob = new SpaceShip();
 Star [] sue= new Star[200];
-ArrayList <Bullet> shootyThings = new ArrayList <Bullet>();
-int score = 0;
 public void setup() 
 { 
   size(500,500);
