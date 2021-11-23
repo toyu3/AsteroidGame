@@ -1,8 +1,6 @@
 SpaceShip bob = new SpaceShip();
 Star [] sue= new Star[200];
-ArrayList <Asteroid> rockCluster = new ArrayList <Asteroid>();
 ArrayList <Bullet> shootyThings = new ArrayList <Bullet>();
-boolean rockets = false;
 int score = 0;
 public void setup() 
 { 
@@ -11,9 +9,6 @@ public void setup()
 
   for (int i = 0; i < sue.length; i ++)
       sue[i] = new Star();
-
-  for(int i = 0; i < 15; i ++)
-      rockCluster.add(new Asteroid());
           
 }
 
