@@ -21,7 +21,7 @@ bob.show();
 
 public void keyPressed() {
 // ship enters hyperspace
-if (key == '  ') {
+if (key == 'q'||key=='Q') {
 bob.setDirectionX(0);
 bob.setDirectionY(0);
 bob.setX((int)(Math.random()*500));
