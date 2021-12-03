@@ -10,7 +10,7 @@ bob[i] = new SpaceShip();
 }
 bob[0].setX(bob[0].getX());
 bob[1].setX(bob[1].getX()+50);
-bob[2].setX(bob[2].getX()+100);
+bob[2].setX(bob[2].getX()-50);
 }
 
 public void draw() {
